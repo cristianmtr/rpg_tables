@@ -386,7 +386,11 @@ top.blades = [
             "Vices",
             "Entertainment",
             "Storage",
+<<<<<<< HEAD
             "Cultivation",
+=======
+            "//Cultivation",
+>>>>>>> master
             "Academia",
             "Art"
         ]
@@ -830,6 +834,7 @@ top.blades = [
             "Steel wire",
             "Tongs"
         ]
+<<<<<<< HEAD
     },
     {
         title: "Assassins job",
@@ -890,5 +895,4 @@ top.blades = [
             "Smuggle Contraband -- High-tax luxuries, drugs, banned art, etc.",
             "Smuggle Passengers -- People or livestock traveling in secret. ",
         ]
-    }
 ]
