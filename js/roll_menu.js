@@ -5808,6 +5808,19 @@ top.menu = [
         id: "blades_in_the_dark",
         items: [
             {
+                title: "Jobs in Duskvol",
+                use:"Roll on this to generate a job for each of the crew types",
+                main_rolls: [
+                    "blades/assassins",
+                    "blades/bravos",
+                    "blades/cult",
+                    "blades/hawkers",
+                    "blades/shadows",
+                    "blades/smugglers"
+                ],
+                sub_rolls: []
+            },
+            {
                 title: "Duskvol street description",
                 use: "Roll on this to generate a street in Duskvol and a set of 3d6 buildings",
                 main_rolls: [
