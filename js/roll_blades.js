@@ -386,7 +386,7 @@ top.blades = [
             "Vices",
             "Entertainment",
             "Storage",
-            "//Cultivation",
+            "Cultivation",
             "Academia",
             "Art"
         ]
@@ -829,6 +829,66 @@ top.blades = [
             "Spikes",
             "Steel wire",
             "Tongs"
+        ]
+    },
+    {
+        title: "Assassins job",
+        id:"assassins",
+        roll:[
+            "Accident -- A killing with no telltale sign of murder",
+            "Disappearance -- The victim vanishes without a trace",
+            "Murder -- An obvious killing to send a message",
+            "Ransom -- A kidnapping and demand for payment for their return",
+        ]
+    },
+    {
+        title: "Bravos job",
+        id:"bravos",
+        roll:[
+            "Battle -- Defeat an enemy with overwhelming force.",
+            "Extortion -- Threaten violence unless you’re paid off.",
+            "Sabotage -- Hurt an opponent by destroying something.",
+            "Smash & Grab -- A fast and violent armed robbery.",
+        ]
+    },
+    {
+        title: "Cult job",
+        id:"cult",
+        roll:[
+            "Acquisition -- Procure an arcane artifact and attune it to your god.",
+            "Augury -- Do what you must to attract the god’s attention and counsel",
+            "Consecration -- Anoint a place for your deity.",
+            "Sacrifice -- Destroy what is valuable or good in honor of your god.",
+        ]
+    },
+    {
+        title: "Hawkers job",
+        id:"hawkers",
+        roll:[
+            "Sale -- A significant transaction with a special buyer of illicit product.",
+            "Supply -- A transaction to acquire new product or establish a fresh supplier.",
+            "Show of Force -- Make an example of an enemy to dominate territory.",
+            "Socialize -- Improve customer and/or supplier relations with a social event.",
+        ]
+    },
+    {
+        title: "Shadows job",
+        id:"shadows",
+        roll:[
+            "Burglary -- Theft by breaking and entering.",
+            "Espionage -- Obtain secret information by covert or clandestine means.",
+            "Robbery -- Theft by force or threats.",
+            "Sabotage -- Hurt an opponent by destroying something.",
+        ]
+    },
+    {
+        title: "Smugglers job",
+        id:"smugglers",
+        roll:[
+            "Smuggle Arcane/Weird -- Spirit essences, ghosts, cult materials.",
+            "Smuggle Arms -- Restrict military weapons, heavy ordnance, explosives",
+            "Smuggle Contraband -- High-tax luxuries, drugs, banned art, etc.",
+            "Smuggle Passengers -- People or livestock traveling in secret. ",
         ]
     }
 ]
