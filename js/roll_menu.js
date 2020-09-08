@@ -5808,6 +5808,24 @@ top.menu = [
         id: "blades_in_the_dark",
         items: [
             {
+                title: "Duskvol street description",
+                use: "Roll on this to generate a street in Duskvol and a set of 3d6 buildings",
+                main_rolls: [
+                    "blades/streetmood",
+                    "blades/streettype",
+                    "blades/streetuse",
+                    "blades/streetdetails",
+                    "blades/streetfeatures",
+                    "blades/streetsights",
+                    "blades/streetprops",
+                    "blades/streetsmells",
+                    "blades/streetsounds"
+                ],
+                sub_rolls: [
+                    "subrolls/3d6duskvol_buildings"
+                ]
+            },
+            {
                 title: "Blades in the Cage",
                 use: "Score Generator for Sigil, the City of Doors in D&D’s Planescape setting.",
                 main_rolls: [

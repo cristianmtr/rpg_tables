@@ -71,7 +71,7 @@ tavern_names = [
     ],
     sub_rolls: [],
   },
-
+  
   //"settlements/d4namingformula_tavernnames",
   //"settlements/d100verb_tavernnames",
   //"settlements/d100adjective_tavernnames",
@@ -84,7 +84,7 @@ military_npcs = [
   {
     title: "Armorer",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -98,7 +98,7 @@ military_npcs = [
   {
     title: "Camp Follower",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -112,7 +112,7 @@ military_npcs = [
   {
     title: "Cook",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -124,7 +124,7 @@ military_npcs = [
   {
     title: "Quartermaster",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -138,7 +138,7 @@ military_npcs = [
   {
     title: "Scout",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -152,7 +152,7 @@ military_npcs = [
   {
     title: "Stable Hand/Squire/Valet",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -169,7 +169,7 @@ merchant_npcs = [
   {
     title: "Animal Handler/Porter",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -183,7 +183,7 @@ merchant_npcs = [
   {
     title: "Cook",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -197,7 +197,7 @@ merchant_npcs = [
   {
     title: "Guard",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -211,7 +211,7 @@ merchant_npcs = [
   {
     title: "Guide",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -225,7 +225,7 @@ merchant_npcs = [
   {
     title: "Traveler",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -239,7 +239,7 @@ merchant_npcs = [
   {
     title: "Caravan Master",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -254,7 +254,7 @@ merchant_npcs = [
   {
     title: "Caravan Merchant",
     use:
-      "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
+    "Use these tables for inspiration or roll them up randomly. Some of the tables could be rolled more.",
     main_rolls: [
       "npcs/dxmalefirstname",
       "npcs/dxfemalefirstname",
@@ -1704,7 +1704,7 @@ fishing_catch = [
   {
     title: "- Seafood Harvesting",
     use:
-      "To harvest seafood the player must have a hunting trap, and must succeed on a skill check vs a DC 12. If he or she has proficiency in Survival then the player can make this check with advantage. The player can only harvest their traps after 24 hours have passed.",
+    "To harvest seafood the player must have a hunting trap, and must succeed on a skill check vs a DC 12. If he or she has proficiency in Survival then the player can make this check with advantage. The player can only harvest their traps after 24 hours have passed.",
     main_rolls: ["objects/d12seafood"],
     sub_rolls: [],
   },
@@ -1892,7 +1892,7 @@ top.subrolls = [
       "dungeons/tombd20featuresyounotice",
     ],
   },
-
+  
   // factions
   {
     title: "6d6 Artisan",
@@ -2176,7 +2176,7 @@ top.subrolls = [
       "factions/d10theguardcarries",
     ],
   },
-
+  
   // monsters
   {
     title: "6d6 Goblins",
@@ -2293,7 +2293,7 @@ top.subrolls = [
       "monsters/d10packthewolfis",
     ],
   },
-
+  
   // objects
   {
     title: "1d12 Gods",
@@ -2363,7 +2363,7 @@ top.subrolls = [
     percent_of: "100",
     roll: fishing_catch,
   },
-
+  
   // npcs
   {
     title: "3d6 Amount of d7 Merchant Caravan Travelers",
@@ -2455,7 +2455,7 @@ top.subrolls = [
       "npcs/d4theprisonerhas",
     ],
   },
-
+  
   // settlements
   {
     title: "8d4 Landmarks/Districts",
@@ -2599,4 +2599,24 @@ top.subrolls = [
     percent_of: "100",
     roll: tavern_names,
   },
+  {
+    title: "Duskvol buildings",
+    singular: "building",
+    id: "3d6duskvol_buildings",
+    roll_type: "amount",
+    number: "3d6",
+    percent_of: "100",
+    percent_to: "100",
+    rolls: [
+      'blades/buildingusecommon',
+      'blades/buildinguserare',
+      'blades/buildingdetails',
+      'blades/buildingfeatures',
+      'blades/buildigndescription',
+      'blades/exteriormaterial',
+      'blades/exteriordetails',
+      'blades/adjective',
+      'blades/buildingprops',
+    ],      
+  }
 ];
