@@ -5793,6 +5793,15 @@ top.menu = [
         id: "blades_in_the_dark",
         items: [
             {
+                title: "Tools in Duskvol",
+                use: "Random tools in Duskvol",
+                main_rolls: [
+                ],
+                sub_rolls: [
+                    "subrolls/2d6toolitems"
+                ]
+            },
+            {
                 title: "Jobs in Duskvol",
                 use: "Roll on this to generate a job for each of the crew types",
                 main_rolls: [
@@ -5824,7 +5833,7 @@ top.menu = [
                 ]
             },
             {
-                title: "Blades in the Cage",
+                title: "Blades in Sigil (Planescape)",
                 use: "Score Generator for Sigil, the City of Doors in D&D’s Planescape setting.",
                 main_rolls: [
                     "wilderness/race_plane_of_origin", //

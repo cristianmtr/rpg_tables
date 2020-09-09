@@ -2615,8 +2615,19 @@ top.subrolls = [
       'blades/buildigndescription',
       'blades/exteriormaterial',
       'blades/exteriordetails',
-      'blades/adjective',
-      'blades/buildingprops',
-    ],      
+      'blades/adjective'
+    ],
+  },
+  {
+    title: "Duskvol tools",
+    singular: "tool",
+    id: "2d6toolitems",
+    roll_type: "amount",
+    number: "2d6",
+    percent_of: "100",
+    percent_to: "100",
+    rolls: [
+      'blades/toolitems'
+    ],
   }
 ];
