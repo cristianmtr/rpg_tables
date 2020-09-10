@@ -15,9 +15,11 @@ Available at https://cristianmtr.github.io/rpg_tables/
 - subtable rolls
 - custom ranges in tables
 
-## Collaboration
+## Collaboration & feedback
 
-Feel free to have a look at the code and suggest improvements.
+Please submit any ideas & feedback you might have as a github issue [here](https://github.com/cristianmtr/rpg_tables/issues/new)
+
+Feel free to have a look at the code and suggest improvements as well.
 
 Check issues and projects for possible ideas to start.
 
