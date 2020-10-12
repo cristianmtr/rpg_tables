@@ -15,7 +15,64 @@ var SUBTABLE_TOKEN = "-->";
 var SUBTABLE_RESULT_MERGER = ":";
 var TABLE_CATEGORY_TOKEN = "/";
 
+function setupTables() {
+    var godbound_menu_entry = null;
+
+// add some tables as menu tables
+    for (j = 0; j < top.menu.length; j++) {
+        var this_table = top.menu[j];
+        if (this_table["id"] === "godbound") {
+            godbound_menu_entry = this_table;
+        }
+    }
+
+    if (godbound_menu_entry != null) {
+
+        for (i = 0; i < top.godbound.length; i++) {
+            var godbound_table = top.godbound[i];
+            var new_table = {
+                title: godbound_table["title"],
+                use: "",
+                main_rolls: [
+                    'godbound/'+ godbound_table["id"]
+                ],
+                sub_rolls: []
+            };
+            godbound_menu_entry["items"].push(new_table);
+        }
+    } else {
+        console.log("no godbound entry was found")
+    }
+
+
+// arrange 'All'
+
+    var all_ref = null;
+
+    all_items = [];
+
+    for (i = 0; i < top.menu.length; i++) {
+        // get items at index
+        if (top.menu[i].id !== "All") {
+            const items = top.menu[i].items;
+
+            for (j = 0; j < items.length; j++) {
+                all_items.push(items[j]);
+            }
+        } else {
+            all_ref = top.menu[i];
+        }
+    }
+
+    all_ref.items = Array.from(new Set(all_items));
+
+    top.menu = top.menu.sort(function (a, b) {
+        return a.title.charCodeAt(0) - b.title.charCodeAt(0);
+    });
+};
+
 function init() {
+  setupTables();
   // load the menu
   loadmenu();
 
@@ -41,6 +98,7 @@ function init() {
     $("#filter").val(urlParams.get("filter"));
     filter();
   }
+
 }
 
 function log(obj) {
@@ -160,6 +218,9 @@ function get_table(table) {
       break;
     case "blades":
       return top.blades;
+      break;
+    case "godbound":
+      return top.godbound;
       break;
   }
 }
