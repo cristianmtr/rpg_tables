@@ -5795,8 +5795,7 @@ top.menu = [
             {
                 title: "Tools in Duskvol",
                 use: "Random tools in Duskvol",
-                main_rolls: [
-                ],
+                main_rolls: [],
                 sub_rolls: [
                     "subrolls/2d6toolitems"
                 ]
@@ -5857,28 +5856,11 @@ top.menu = [
                 sub_rolls: []
             }
         ],
+    },
+    {
+        id: "godbound",
+        title: "Godbound",
+        items: []
     }
 ];
 
-var all_ref = null;
-
-all_items = [];
-
-for (i = 0; i < top.menu.length; i++) {
-    // get items at index
-    if (top.menu[i].id !== "All") {
-        const items = top.menu[i].items;
-
-        for (j = 0; j < items.length; j++) {
-            all_items.push(items[j]);
-        }
-    } else {
-        all_ref = top.menu[i];
-    }
-}
-
-all_ref.items = Array.from(new Set(all_items));
-
-top.menu = top.menu.sort(function (a, b) {
-    return a.title.charCodeAt(0) - b.title.charCodeAt(0);
-});
