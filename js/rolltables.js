@@ -15,34 +15,42 @@ var SUBTABLE_TOKEN = "-->";
 var SUBTABLE_RESULT_MERGER = ":";
 var TABLE_CATEGORY_TOKEN = "/";
 
-function setupTables() {
-    var godbound_menu_entry = null;
+var tables_to_add_as_menu = ["godbound", "swn"];
 
-// add some tables as menu tables
+function setupTables() {
+  for (k = 0; k < tables_to_add_as_menu.length; k++) {
+    var menu_name = tables_to_add_as_menu[k];
+    var menu_entry = null;
+
+  // add some tables as menu tables
     for (j = 0; j < top.menu.length; j++) {
         var this_table = top.menu[j];
-        if (this_table["id"] === "godbound") {
-            godbound_menu_entry = this_table;
+        if (this_table["id"] === menu_name) {
+            menu_entry = this_table;
         }
     }
 
-    if (godbound_menu_entry != null) {
+    if (menu_entry != null) {
 
-        for (i = 0; i < top.godbound.length; i++) {
-            var godbound_table = top.godbound[i];
+        for (i = 0; i < top[menu_name].length; i++) {
+            var table_to_add = top[menu_name][i];
             var new_table = {
-                title: godbound_table["title"],
+                title: table_to_add["title"],
                 use: "",
                 main_rolls: [
-                    'godbound/'+ godbound_table["id"]
+                    menu_name + '/' + table_to_add["id"]
                 ],
                 sub_rolls: []
             };
-            godbound_menu_entry["items"].push(new_table);
+            menu_entry["items"].push(new_table);
         }
     } else {
-        console.log("no godbound entry was found")
+        console.log("no", menu_name,  "entry was found");
     }
+
+
+  }
+   
 
 
 // arrange 'All'
@@ -222,6 +230,9 @@ function get_table(table) {
     case "godbound":
       return top.godbound;
       break;
+    case "swn":
+        return top.swn;
+        break;
   }
 }
 

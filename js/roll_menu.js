@@ -5861,6 +5861,11 @@ top.menu = [
         id: "godbound",
         title: "Godbound",
         items: []
+    },
+    {
+        id: "swn",
+        title: "Stars without Number",
+        items: []
     }
 ];
 
