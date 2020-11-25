@@ -5864,7 +5864,7 @@ top.menu = [
     },
     {
         id: "swn",
-        title: "Stars without Number",
+        title: "SWN",
         items: []
     }
 ];
