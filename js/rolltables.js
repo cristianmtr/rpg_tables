@@ -560,7 +560,7 @@ function roll_sub_roll(id, table) {
           amount = Math.ceil(amount * (percent_of / 100));
 
           side(title + " : " + amount);
-          side_display(title + " : <b>" + amount + "</b>");
+          side_display(title + " : " + amount);
 
           // roll that many times
           for (var z = 0; z < amount; z++) {
@@ -576,7 +576,7 @@ function roll_sub_roll(id, table) {
             // show title of this result
             side(pre_title + table[i].roll[rand].title);
             side_display(
-              "<b>" + pre_title + table[i].roll[rand].title + "</b>"
+              pre_title + table[i].roll[rand].title
             );
             side_display("<div class='indent'>");
 
@@ -591,7 +591,7 @@ function roll_sub_roll(id, table) {
               }
 
               side(pre + sub_title + " : " + value);
-              side_display(sub_title + " : <b>" + value + "</b>");
+              side_display(sub_title + " : " + value);
             }
 
             side_display("</div>");
@@ -603,14 +603,14 @@ function roll_sub_roll(id, table) {
           amount = Math.ceil(amount * (percent_of / 100));
 
           side(title + " : " + amount);
-          side_display(title + " : <b>" + amount + "</b>");
+          side_display(title + " : " + amount);
 
           // roll that many times
           for (var z = 0; z < amount; z++) {
             // roll for each roll
 
             side("(" + (z + 1) + ") " + singular_item);
-            side_display("<b>(" + (z + 1) + ") " + singular_item + "</b>");
+            side_display("(" + (z + 1) + ") " + singular_item);
 
             var pre = "     ";
             var pre_display = "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";
@@ -630,7 +630,7 @@ function roll_sub_roll(id, table) {
               }
 
               side(pre + sub_title + " : " + value);
-              side_display(sub_title + " : <b>" + value + "</b>");
+              side_display(sub_title + " : " + value);
             }
 
             side_display("</div>");
@@ -738,7 +738,7 @@ function perform_roll() {
       }
 
       side(roll.title + " : " + value);
-      side_display(roll.title + " : <b>" + value + "</b>");
+      side_display(roll.title + " : " + value);
     }
   }
 
