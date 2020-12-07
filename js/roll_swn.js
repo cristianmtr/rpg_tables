@@ -172,6 +172,20 @@ top.swn = [
             "<b>Xenophobes</b><br>\n    The natives are intensely averse to dealings with outworlders. Whether through cultural revulsion, fear of tech contamination, or a genuine immunodeficiency, the locals shun foreigners from offworld and refuse to have anything to do with them beyond the bare necessities of contact. Trade may or may not exist on this world, but if it does, it is almost certainly conducted by a caste of untouchables and outcasts.<br>\n    <span style='padding-left: 5em'><b>Friends</b></span>: Curious native, Exiled former ruler, Local desperately seeking outworlder help<br><span style='padding-left: 5em'><b>Enemies</b></span>: Revulsed local ruler, Native convinced some wrong was done to him, Cynical demagogue<br><span style='padding-left: 5em'><b>Complications</b></span>: The natives are symptomless carriers of a contagious and dangerous disease, The natives are exceptionally vulnerable to offworld diseases, The natives require elaborate purification rituals after speaking to an offworlder or touching them, The local ruler has forbidden any mercantile dealings with outworlders<br><span style='padding-left: 5em'><b>Places</b></span>: Sealed treaty port, Public ritual not open to outsiders, Outcaste slum home<br><span style='padding-left: 5em'><b>Things</b></span>: Jealously-guarded precious relic, Local product under export ban, Esoteric local technology<br>",
             "<b>Zombies</b><br>\n    This menace may not take the form of shambling corpses, but some disease, alien artifact, or crazed local practice produces men and women with habits similar to those of murderous cannibal undead. These outbreaks may be regular elements in local society, either provoked by some malevolent creators or the consequence of some local condition.<br>\n    <span style='padding-left: 5em'><b>Friends</b></span>: Survivor of an outbreak, Doctor searching for a cure, Rebel against the secret malefactors<br><span style='padding-left: 5em'><b>Enemies</b></span>: Soulless maltech biotechnology cult, Sinister governmental agent, Crazed zombie cultist<br><span style='padding-left: 5em'><b>Complications</b></span>: The zombies retain human intelligence, The zombies can be cured, The process is voluntary among devotees, The condition is infectious<br><span style='padding-left: 5em'><b>Places</b></span>: House with boarded-up windows, Dead city, Fortified bunker that was overrun from within<br><span style='padding-left: 5em'><b>Things</b></span>: Cure for the condition, Alien artifact that causes it, Details of the cult's conversion process<br>"
         ]
+    },
+    {
+        "title": "Planet Atmosphere (SWN)",
+        "id": "swn_atmosphere",
+        "roll": [
+            "1: Corrosive",
+            "2: Inert gas",
+            "3-4: Airless or thin atmosphere",
+            "5-7: Breatheable mix",
+            "8-9: Thick atmosphere, breathable with a pressure mask",
+            "10-11: Invasive, toxic atmosphere",
+            "12: Corrosive and invasive atmosphere"
+        ]
     }
+    
 ]
 
