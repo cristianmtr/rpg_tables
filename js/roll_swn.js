@@ -176,6 +176,7 @@ top.swn = [
     {
         "title": "Planet Atmosphere (SWN)",
         "id": "swn_atmosphere",
+        "type": "range",
         "roll": [
             "1: Corrosive",
             "2: Inert gas",
