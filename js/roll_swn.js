@@ -1,4 +1,5 @@
-top.swn = [{
+top.swn = [
+    {
         title: "Transhuman Polity (SWN)",
         id: "swn_transhuman_polity",
         roll: [
@@ -226,6 +227,23 @@ top.swn = [{
             "<b>Survival</b> All focus and vigor is turned to self-preservation and the proactive elimination of perils.",
             "<b>Torment</b> Only in the pain of others is the self affirmed. Power lies in the ability to make another suffer.",
             "<b>Unity</b> Everything must be brought into perfect conjunction and harmony with a greater purpose."
+        ]
+    },
+    {
+        "title": "Madness Intensity of the Lost (SWN)",
+        "id": "swn_madness_intensity_lost",
+        "roll": [
+            "Decaying The Madness was once overwhelming, but is now weaker and less compulsive. ",
+            "Fresh The Madness is a recent response to some event or need and has freshurgency.",
+            "Hidden The Madness is strong, but they seek to conceal or mask it.",
+            "Maniacal They are barely capable of thinking of anything but the Madness.",
+            "Reasoned The Madness is their usual purpose, but they can temper it when it proves useful to them. ",
+            "Ruinous The Madness is so strong that it is inimical to their immediate survival.",
+            "Strong The Madness directs them in all things, but it does not consume their reason.",
+            "Tic The Madness is noticeable, but more an inclination than a driving force.",
+            "Triggered A thing, circumstance, or cause triggers the Madness in overwhelming strength.",
+            "Variable A certain caste or type within the species is driven by it, others less so.",
+            
         ]
     }
 ]
