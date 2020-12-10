@@ -233,17 +233,33 @@ top.swn = [
         "title": "Madness Intensity of the Lost (SWN)",
         "id": "swn_madness_intensity_lost",
         "roll": [
-            "Decaying The Madness was once overwhelming, but is now weaker and less compulsive. ",
-            "Fresh The Madness is a recent response to some event or need and has freshurgency.",
-            "Hidden The Madness is strong, but they seek to conceal or mask it.",
-            "Maniacal They are barely capable of thinking of anything but the Madness.",
-            "Reasoned The Madness is their usual purpose, but they can temper it when it proves useful to them. ",
-            "Ruinous The Madness is so strong that it is inimical to their immediate survival.",
-            "Strong The Madness directs them in all things, but it does not consume their reason.",
-            "Tic The Madness is noticeable, but more an inclination than a driving force.",
-            "Triggered A thing, circumstance, or cause triggers the Madness in overwhelming strength.",
-            "Variable A certain caste or type within the species is driven by it, others less so.",
+            "<b>Decaying</b> The Madness was once overwhelming, but is now weaker and less compulsive. ",
+            "<b>Fresh</b> The Madness is a recent response to some event or need and has freshurgency.",
+            "<b>Hidden</b> The Madness is strong, but they seek to conceal or mask it.",
+            "<b>Maniacal</b> They are barely capable of thinking of anything but the Madness.",
+            "<b>Reasoned</b> The Madness is their usual purpose, but they can temper it when it proves useful to them. ",
+            "<b>Ruinous</b> The Madness is so strong that it is inimical to their immediate survival.",
+            "<b>Strong</b> The Madness directs them in all things, but it does not consume their reason.",
+            "<b>Tic</b> The Madness is noticeable, but more an inclination than a driving force.",
+            "<b>Triggered</b> A thing, circumstance, or cause triggers the Madness in overwhelming strength.",
+            "<b>Variable</b> A certain caste or type within the species is driven by it, others less so.",
             
         ]
+    },
+    {
+        "title": "Madness Motivation of the Lost (SWN)",
+        "id": "swn_madness_motivation_lost",
+        "roll": [
+            "<b>Created</b> They were engineered or self-forged to focus on the Madness.",
+            "<b>Defiance</b> Some force tried to stamp out atrait in them, inducing the Madness.",
+            "<b>Delusion</b> A force deceived them into believing the Madness was vital.",
+            "<b>Historical</b> An event in their history drove them to embrace the Madness.",
+            "<b>Ideological</b> Some social philosophy pushed them to the Madness.",
+            "<b>Imputed</b> Another species impressed the Madness upon them.",
+            "<b>Intrinsic</b> The Madness is a consequence of their basic natures.",
+            "<b>Relict</b> In their age, the Madness was a crucial survival tool.",
+            "<b>Subsistence</b> The Madness somehow produces something vital for their survival.",
+            "<b>Theological</b> Religious concepts compel the Madness.",
+        ]        
     }
 ]
