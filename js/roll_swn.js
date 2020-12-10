@@ -1,5 +1,4 @@
-top.swn = [
-    {
+top.swn = [{
         title: "Transhuman Polity (SWN)",
         id: "swn_transhuman_polity",
         roll: [
@@ -186,7 +185,47 @@ top.swn = [
             "10-11: Invasive, toxic atmosphere",
             "12: Corrosive and invasive atmosphere"
         ]
+    },
+    {
+        "title": "Madness of the Lost (SWN)",
+        "id": "swn_madness_lost",
+        "roll": [
+            "<b>Abstention</b> Greatness is in poverty. To have and need nothing is best, for themselves and all others.",
+            "<b>Anguish</b> Personal suffering is magnificence. The most exotic forms of self-torment are sought.",
+            "<b>Arete</b> Excellence in strength, wisdom, beauty, and magnificence of soul is the only worthy goal.",
+            "<b>Beauty</b> All life is directed toward the creation of beauty in form, action, and meaning.",
+            "<b>Connection</b> Things must be connected- places, people, ideas, objects. All must be linked.",
+            "<b>Construction</b> They must build: structures, objects, social organizations. All without halt or end.",
+            "<b>Conversion</b> The world is to be shaped into a pattern more to their liking, both in flesh and form.",
+            "<b>Corruption</b> Whatever is believed must be compromised. All virtues must be made hypocrisies.",
+            "<b>Deceit</b> All things must be lies. The truth of anything must always be concealed.",
+            "<b>Degradation</b> They alone are worthy sentience; all other thinking things must be made into something less.",
+            "<b>Disassembly</b> They break things down into component parts, whether living creatures or foreign structures.",
+            "<b>Escape</b> They must escape this world they inhabit. All efforts are directed toward flight.",
+            "<b>Esoterica</b> They have a secret art or hidden wisdom, and all effort is toward expressing it.",
+            "<b>Exclusion</b> All intrusions of the metadimensional or alien are an abomination and an invasion.",
+            "<b>Forgetting</b> Some ideas must be buried and destroyed, and any who know of them must be silenced.",
+            "<b>Hatred</b> All else in the world is worthy only of unremitting hatred and violence.",
+            "<b>Healing</b> The world is forever broken and forever in need of repair, whether in body, structure, or spirit.",
+            "<b>Hunger</b> Consumption is life. Eat of the living, or the inanimate, or of ephemeral ideas.",
+            "<b>Inversion</b> Roll again; their Madness is to stamp out that motive in all other creatures.",
+            "<b>Knowing</b> They exist to learn, whether secrets or mundane truths. They constantly interrogate the world.",
+            "<b>Luddism</b> Only their knowledge is pure. All other forms of artifice and technology must be eliminated.",
+            "<b>Memorial</b> They are living memorials to another race or idea; they must glorify and echo it unceasingly.",
+            "<b>Nihilism</b> Existence is suffering. They must end all that is out of mercy for the living.",
+            "<b>Pleasure</b> There is no greater purpose than joy. All existence is focused on the finding of new pleasures.",
+            "<b>Protection</b> All must be defended from a thing, whether they can appreciate it or not.",
+            "<b>Reproduction</b> Their purpose is to create more of their kind with no regard for reasonable limits.",
+            "<b>Rule</b> The world must be rectified beneath their guidance, even if they guide it only to stand still.",
+            "<b>Sacrifice</b> Life is what one expends on behalf of another, whether a person or a subtler cause.",
+            "<b>Schism</b> They hate each other, either individually or in factions, and all existence is self-struggle.",
+            "<b>Selfishness</b> The only worthy goal is exaltation of the self, no matter the cost to others.",
+            "<b>Servitude</b> They must obey, and the justification of their existence is in the perfection of their obedience.",
+            "<b>Shame</b> They are filth. They are monsters. They must accept their worthlessness and repent.",
+            "<b>Stasis</b> They must not change in any way. All must be the same, forever.",
+            "<b>Survival</b> All focus and vigor is turned to self-preservation and the proactive elimination of perils.",
+            "<b>Torment</b> Only in the pain of others is the self affirmed. Power lies in the ability to make another suffer.",
+            "<b>Unity</b> Everything must be brought into perfect conjunction and harmony with a greater purpose."
+        ]
     }
-    
 ]
-
