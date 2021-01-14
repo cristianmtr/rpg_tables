@@ -2450,6 +2450,8 @@ top.menu = [
                     "npcs/dxmalefirstname",
                     "npcs/dxfemalefirstname",
                     "npcs/dxsurname",
+                    "npcs/cool_names",
+                    "npcs/portraits_fantasy"
                 ],
                 sub_rolls: [],
             },
