@@ -1,5 +1,62 @@
 top.swn = [
     {
+        "title": "Reward",
+        "id": "swn_reward",
+        "roll": [
+            "Large cache of credits",
+            "Vital data on the party’s goal",
+            "Advanced pretech artifact",
+            "Ancient treasure object",
+            "High-tech robotic servitor",
+            "Juicy blackmail material",
+            "Alien artifact of great power",
+            "Map to some valuable thing",
+            "Legal title to important land",
+            "Cache of precious goods",
+        ]
+    },
+    {
+        "title": "Civilized Ongoings",
+        "id": "swn_civ_ongoings",
+        "roll": [
+            "Local festival going on",
+            "Angry street protests",
+            "Minor fire or other disorder",
+            "Merchants and peddlers active",
+            "Tourists from another country",
+            "Building repair or maintenance",
+            "Recent vehicle crash",
+            "Public art performance",
+            "Angry traffic jam",
+            "Missionaries for a local religion",
+            "Loud advertising campaign",
+            "Memorial service ongoing",
+            "Road work halting traffic",
+            "Power outage in the area",
+            "Police chasing criminals",
+            "Annoying drunks being loud",
+            "Beggars seeking alms",
+            "Constructing a new building",
+            "Local thugs swaggering around",
+        ]
+    },
+    {
+        "title": "Wilderness Ongoings",
+        "id": "swn_wilderness",
+        "roll": [
+            "Bandits have moved in",
+            "Part of it has collapsed",
+            "Dangerous animals lair here",
+            "Smugglers have landed here",
+            "A hermit has taken up residence",
+            "An artist seeks inspiration here",
+            "The weather has turned savage",
+            "Some locals are badly lost",
+            "Locals fight over control of it",
+            "An old shrine was raised here",
+        ]
+    },
+    {
         title: "Transhuman Polity (SWN)",
         id: "swn_transhuman_polity",
         roll: [
